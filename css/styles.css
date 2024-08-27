@@ -112,7 +112,9 @@ a {
   background-color: #f4f4fd;
 }
 
+/* 
 .page-main-second-title,
+*/
 .page-main-second-title {
   font-weight: 700;
   font-size: 36px;
@@ -149,4 +151,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.page-main-third .page-main-second-list-title,
+.page-main-third .page-main-second-list-text {
+  text-align: left;
 }
