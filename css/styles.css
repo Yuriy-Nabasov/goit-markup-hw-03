@@ -187,6 +187,24 @@ for layout pages
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 72px;
+}
+
+.container .header-logo {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 24px;
+  margin-right: 76px;
+  margin-bottom: 24px;
+  margin-left: 40px;
+}
+
+.container .contacts-link {
+  margin-right: 40px;
+}
+
+.container .nav-link {
+  margin-right: 40px;
 }
 
 .page-main-first-section-title {
