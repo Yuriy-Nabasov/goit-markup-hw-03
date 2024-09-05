@@ -129,6 +129,11 @@ img {
   padding-bottom: 60px;
 }
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+  /* position: fixed; */
+}
+
 /* =======/header-style-settings=======*/
 
 /* =======page-1-part-1======= */
