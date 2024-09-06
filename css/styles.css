@@ -120,18 +120,15 @@ img {
 .page-header .container {
   display: flex;
   justify-content: space-between;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .section-paddings {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  /* position: fixed; */
 }
 
 /* =======/header-style-settings=======*/
@@ -160,7 +157,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  /* padding-top: 188px; */
   max-width: 496px;
 }
 
@@ -222,14 +218,7 @@ img {
 }
 
 /* ==/section-1-scrolls--page-1-part-2== */
-
-.page-footer {
-  background-color: #2e2f42;
-}
-
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
+/* =======section-2-scrolls======= */
 
 .page-main-second {
   background-color: #f4f4fd;
@@ -243,10 +232,19 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
+}
+
+.page-main-second-list {
+  display: flex;
+  column-gap: 24px;
 }
 
 .page-main-second-list-item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  display: flex;
+  flex-direction: column;
 }
 
 .page-main-second-list-title {
@@ -257,6 +255,8 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .page-main-second-list-text {
@@ -264,6 +264,49 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 32px;
+}
+
+/* =======/section-2-scrolls======= */
+/* =======section-3-scrolls======= */
+
+.page-main-third .page-main-second-list-title,
+.page-main-third .page-main-second-list-text {
+  text-align: left;
+}
+
+.page-main-third-list {
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-direction: row;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-main-third-list-item {
+  background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  display: flex;
+  flex-direction: column;
+  flex-basis: 360px;
+}
+
+.portfolio-padding {
+  padding-left: 16px;
+}
+
+/* =======/section-3-scrolls======= */
+/* =======footer-scrolls======= */
+
+.page-footer {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .page-footer-text {
@@ -271,43 +314,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  padding-top: 16px;
 }
 
-.page-main-third .page-main-second-list-title,
-.page-main-third .page-main-second-list-text {
-  text-align: left;
-}
-
-/* 
-add styles for geometry 
-(width, padding, margins, and borders) 
-and content positioning with Flexbox 
-for layout pages
-*/
-
-/* .page-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 72px;
-} */
-
-/* .container .header-logo {
-  flex-basis: 24px;
-} */
-
-/* .container .contacts-link {
-  margin-right: 40px;
-} */
-
-/* .container .nav-link {
-  margin-right: 40px;
-} */
-
-/* .page-main-section .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-} */
+/* =======/footer-scrolls======= */
