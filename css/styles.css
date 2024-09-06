@@ -290,6 +290,9 @@ img {
   display: flex;
   flex-direction: column;
   flex-basis: 360px;
+  border-bottom: 1px solid #e7e9fc;
+  /* border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc; */
 }
 
 .portfolio-padding {
