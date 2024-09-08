@@ -249,7 +249,8 @@ img {
 
 .page-main-second-list {
   display: flex;
-  column-gap: 24px;
+  /* column-gap: 24px; */
+  gap: 24px;
 }
 
 .page-main-second-list-item {
@@ -257,6 +258,7 @@ img {
   width: calc((100% - 3 * 24px) / 4);
   display: flex;
   flex-direction: column;
+  border-radius: 0 0 4px 4px;
 }
 
 .page-main-second-list-title {
@@ -278,6 +280,11 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   /* padding-bottom: 32px; */
+}
+
+.our-team {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* =======/section-2-scrolls======= */
