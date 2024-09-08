@@ -147,13 +147,15 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .page-main-section-container {
-  padding-top: 188px;
+  /* padding-top: 188px; */
   padding-left: 331px;
   padding-right: 331px;
-  padding-bottom: 188px;
+  /* padding-bottom: 188px; */
 }
 
 .page-main-section-title {
@@ -179,6 +181,9 @@ img {
   border-radius: 4px;
   min-width: 169px;
   padding: 16px 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* =======/page-1-part-1======= */
