@@ -114,13 +114,11 @@ img {
 
 .nav-list {
   display: flex;
-  /* column-gap: 40px; */
   gap: 40px;
 }
 
 .contacts-list {
   display: flex;
-  /* column-gap: 40px; */
   gap: 40px;
 }
 
@@ -152,11 +150,6 @@ img {
   padding-bottom: 188px;
 }
 
-.page-main-section-container {
-  padding-left: 331px;
-  padding-right: 331px;
-}
-
 .page-main-section-title {
   font-weight: 700;
   font-size: 56px;
@@ -165,6 +158,8 @@ img {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-main-section-button {
@@ -218,7 +213,6 @@ img {
 
 .page-main-first-section-list {
   display: flex;
-  /* column-gap: 24px; */
   gap: 24px;
 }
 
@@ -311,10 +305,6 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
-}
-
-.portfolio-padding {
-  /* padding-left: 16px; */
 }
 
 /* =======/section-3-scrolls======= */
